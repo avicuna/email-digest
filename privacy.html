@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy | Email Digest</title>
+<style>
+:root{color-scheme:light dark;--bg:#f6f6f4;--fg:#1c1c1f;--muted:#5d5d66;--link:#2456c9}
+@media(prefers-color-scheme:dark){:root{--bg:#17171a;--fg:#ececee;--muted:#a3a3ad;--link:#8fb0ff}}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 -apple-system,BlinkMacSystemFont,"Helvetica Neue",sans-serif}
+main{max-width:40rem;margin:0 auto;padding:3rem 1rem 4rem}
+h1{font-size:2rem;line-height:1.2;margin:0 0 1rem}h2{font-size:1.2rem;margin:2rem 0 .5rem}
+a{color:var(--link)}li{margin:.4rem 0}.muted{color:var(--muted)}nav{margin-top:2.5rem}
+</style>
+</head>
+<body>
+<main>
+<h1>Privacy policy</h1>
+<p class="muted">Last updated: November 19, 2026</p>
+<p>Email Digest is a Mac app made by Alejandro Vicuna. It runs on your Mac. I don't run a server for it so I never receive your email, your sign-ins or any usage data.</p>
+<h2>What the app reads</h2>
+<p>When you sign in with Google the app asks for permission to read your Gmail, create drafts and change labels. It only changes labels to move mail to Trash. It reads message headers and text. For attachments it reads the names but not the contents. If you connect Proton it reads the same things through Proton Mail Bridge on your Mac.</p>
+<h2>Where your data goes</h2>
+<ul>
+<li>On your Mac: the digest, its settings and a local database are stored in your user folder. Your Google sign-in token and Bridge password are stored in the macOS Keychain.</li>
+<li>To Anthropic: to sort mail and draft replies the app sends email text (trimmed to 4,000 characters) to Claude through the Claude Code app on your Mac, which is signed in to your own Claude account. Anthropic's privacy policy and your Claude settings cover that data.</li>
+<li>To senders, only when you act: clicking Load images in an email fetches its images from the sender. Unsubscribing may contact the sender's unsubscribe address.</li>
+<li>Nowhere else. The app has no analytics or ads and nothing is sent to me.</li>
+</ul>
+<h2>What the app does with Google data</h2>
+<p>The app uses Gmail data only to show you your digest, draft replies you ask for and move mail to Trash when you press a button. It doesn't sell it, use it for ads, or use it to train AI models. Nobody other than you reads it. Email Digest's use of information received from Google APIs follows the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+<h2>Deleting your data</h2>
+<p>Uninstall the app and delete the folder <code>~/Library/Application Support/email-digest</code> to remove everything it stored. To revoke Gmail access, remove Email Digest at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+<h2>Contact</h2>
+<p><a href="mailto:alexv4@pm.me">alexv4@pm.me</a></p>
+<nav><a href="./">Email Digest</a></nav>
+</main>
+</body>
+</html>
